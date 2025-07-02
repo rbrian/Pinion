@@ -1,1 +1,4 @@
 # Pinion
+Pinion™ is a new series of expansion boards compatible with the Adafruit Feather format. They include a strip of tied pins for each Feather pin, similar to a traditional breadboard, as well as a 3.3v power bus, and busses for both SDI and I2C. This makes it easier to build a prototype or one-off circuit using breakout boards without ending up in a ratsnest of I2C cables and jumpter wires. There are also spots to mount a 0.1" pitch screw terminal for both 3.3v and 5V power, for those cases where power via the Feather's USB port isn't the best solution. Keep in mind that the 5V input is tied directly to the Feather's USB, so it will probably back-power the USB connection and potentially cause damage to your PC. You have been warned. 
+
+There are current 2 boards in the Pinion series, Pinion One for a single Feather, and Pinion 2 for a Feather and associated Featherwing. 
